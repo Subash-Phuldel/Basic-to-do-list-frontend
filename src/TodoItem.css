@@ -1,0 +1,29 @@
+/* src/TodoItem.css */
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-checkbox {
+  margin-right: 10px;
+}
+
+.todo-content {
+  flex: 1;
+}
+
+.todo-title {
+  font-weight: bold;
+}
+
+.todo-description {
+  margin: 5px 0;
+}
+
+.completed .todo-title,
+.completed .todo-description {
+  text-decoration: line-through;
+  color: #888;
+}
